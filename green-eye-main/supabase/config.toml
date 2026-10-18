@@ -1,0 +1,16 @@
+project_id = "private"
+
+[functions.analyze-image]
+verify_jwt = true
+
+[functions.advanced-image-analysis]
+verify_jwt = true
+
+[functions.generate-report] 
+verify_jwt = true
+
+[functions.weather-data]
+verify_jwt = false
+
+[functions.iot-treatment]
+verify_jwt = true
